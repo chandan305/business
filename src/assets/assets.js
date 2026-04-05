@@ -11,6 +11,9 @@ import growth from './growth.png'
 import jurney from './jurney.jpg'
 import jurney2 from './jurney2.jpg'
 import jurney3 from './jurney3.jpg'
+import why_choose from './why_choose.jpg'
+import why_choose1 from './why_choose1.jpg'
+
 
 export const assets = {
     logo,
@@ -25,7 +28,9 @@ export const assets = {
     target,
     jurney,
     jurney2,
-    jurney3
+    jurney3,
+    why_choose,
+    why_choose1
 
 }
 
@@ -202,5 +207,59 @@ export const journey = [
       ]
     }
   ]
+  }
+];
+
+
+export const frameworkData = [
+  {
+    step: "01",
+    week: "Week 1–2",
+    title: "Investor Readiness",
+    points: [
+      "Pitch deck restructuring",
+      "Financial model & valuation alignment",
+      "Legal & compliance review"
+    ]
+  },
+  {
+    step: "02",
+    week: "Week 2–4",
+    title: "Investor Mapping & Outreach",
+    points: [
+      "Stage-aligned investor shortlisting",
+      "Outreach strategy design",
+      "Active tracking & follow-ups"
+    ]
+  },
+  {
+    step: "03",
+    week: "Week 4–8",
+    title: "Investor Interactions",
+    points: [
+      "Pitch preparation & rehearsal",
+      "Live feedback-based refinements",
+      "Investor Q&A handling"
+    ]
+  },
+  {
+    step: "04",
+    week: "Week 8–10",
+    title: "Due Diligence",
+    points: [
+      "Data room coordination",
+      "Financial & legal clarifications",
+      "Negotiation support"
+    ]
+  },
+  {
+    step: "05",
+    week: "Week 10–12",
+    title: "Term Sheet & Closure",
+    points: [
+      "Term sheet review & discussions",
+      "Fund transfer & compliance filings",
+      "Post-funding execution transition"
+    ]
   }
 ];

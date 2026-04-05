@@ -4,6 +4,8 @@ import Marquee from '../components/Marquee';
 import Philosophy from '../components/Philosophy';
 import Industries from '../components/Industries';
 import StartupJourney from '../components/StartupJourney';
+import Framework from '../components/Framework';
+import WhyChooseUs from '../components/WhyChooseUs';
 
 const Founding = () => {
   return (
@@ -14,6 +16,8 @@ const Founding = () => {
       <Philosophy />
       <Industries />
       <StartupJourney />
+      <Framework />
+      <WhyChooseUs />
     </div>
     
   )
