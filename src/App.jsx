@@ -9,6 +9,7 @@ import Talkto from './pages/Talkto'
 import Navbar from './components/Navbar'
 import Framework from './pages/Framework'
 import CaseStudies from './pages/CaseStudies'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         <Route path='/framework' element={<Framework />} />
         <Route path='/caseStudies' element={<CaseStudies />} />
       </Routes>
+      <Footer />
     </div>
   )
 }

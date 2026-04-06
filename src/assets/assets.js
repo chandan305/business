@@ -13,6 +13,8 @@ import jurney2 from './jurney2.jpg'
 import jurney3 from './jurney3.jpg'
 import why_choose from './why_choose.jpg'
 import why_choose1 from './why_choose1.jpg'
+import phone from './phone.png'
+import message from './message.png'
 
 
 export const assets = {
@@ -30,7 +32,10 @@ export const assets = {
     jurney2,
     jurney3,
     why_choose,
-    why_choose1
+    why_choose1,
+    phone,
+    message
+
 
 }
 

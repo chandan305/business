@@ -6,6 +6,8 @@ import Industries from '../components/Industries';
 import StartupJourney from '../components/StartupJourney';
 import Framework from '../components/Framework';
 import WhyChooseUs from '../components/WhyChooseUs';
+import Contact from '../components/Contact';
+
 
 const Founding = () => {
   return (
@@ -18,6 +20,7 @@ const Founding = () => {
       <StartupJourney />
       <Framework />
       <WhyChooseUs />
+      <Contact />
     </div>
     
   )
