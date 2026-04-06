@@ -1,24 +1,20 @@
+import { NavLink } from "react-router-dom";
 import { assets } from "../assets/assets";
 
 const Footer = () => {
   return (
     <footer className="border-t border-gray-200 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
-
         {/* Top */}
         <div className="py-16 grid md:grid-cols-4 gap-12 md:gap-8">
-
           {/* Logo + About */}
           <div className="md:col-span-2">
-            <img
-              src={assets.logo}
-              alt="HOS Bharat"
-              className="w-24 mb-5"
-            />
+            <img src={assets.logo} alt="HOS Bharat" className="w-24 mb-5" />
 
             <p className="text-gray-500 text-sm leading-relaxed max-w-sm mb-6">
               Startup growth and equity fundraising consultancy. From first
-              capital to institutional growth — building companies that deserve funding.
+              capital to institutional growth — building companies that deserve
+              funding.
             </p>
 
             <a
@@ -36,11 +32,66 @@ const Footer = () => {
             </p>
 
             <ul className="space-y-3">
-              <li><a href="#philosophy" className="text-sm text-gray-500 hover:text-black">Philosophy</a></li>
-              <li><a href="#industries" className="text-sm text-gray-500 hover:text-black">Industries</a></li>
-              <li><a href="#services" className="text-sm text-gray-500 hover:text-black">Services</a></li>
-              <li><a href="#framework" className="text-sm text-gray-500 hover:text-black">Framework</a></li>
-              <li><a href="#cases" className="text-sm text-gray-500 hover:text-black">Case Studies</a></li>
+                <li>
+                <NavLink
+                  to="/"
+                  className="text-sm text-gray-500 hover:text-black"
+                >
+                  Founding
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/legal"
+                  className="text-sm text-gray-500 hover:text-black"
+                >
+                  Legal
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/philosophy"
+                  className="text-sm text-gray-500 hover:text-black"
+                >
+                  Philosophy
+                </NavLink>
+              </li>
+
+              <li>
+                <NavLink
+                  to="/industries"
+                  className="text-sm text-gray-500 hover:text-black"
+                >
+                  Industries
+                </NavLink>
+              </li>
+
+              <li>
+                <NavLink
+                  to="/services"
+                  className="text-sm text-gray-500 hover:text-black"
+                >
+                  Services
+                </NavLink>
+              </li>
+
+              <li>
+                <NavLink
+                  to="/framework"
+                  className="text-sm text-gray-500 hover:text-black"
+                >
+                  Framework
+                </NavLink>
+              </li>
+
+              <li>
+                <NavLink
+                  to="/caseStudies"
+                  className="text-sm text-gray-500 hover:text-black"
+                >
+                  Case Studies
+                </NavLink>
+              </li>
             </ul>
           </div>
 
@@ -57,12 +108,10 @@ const Footer = () => {
               <li className="text-sm text-gray-500">Series B</li>
             </ul>
           </div>
-
         </div>
 
         {/* Bottom */}
         <div className="border-t py-6 flex flex-col md:flex-row items-center justify-between gap-4">
-
           <p className="text-xs text-gray-500">
             © 2026 HOS Bharat — The House of Startups. All rights reserved.
           </p>
@@ -70,9 +119,7 @@ const Footer = () => {
           <p className="text-xs text-gray-500">
             Build with clarity. Raise with confidence. Scale with discipline.
           </p>
-
         </div>
-
       </div>
     </footer>
   );

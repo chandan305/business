@@ -15,6 +15,7 @@ import why_choose from './why_choose.jpg'
 import why_choose1 from './why_choose1.jpg'
 import phone from './phone.png'
 import message from './message.png'
+import down_arrow from './down_arrow.png'
 
 
 export const assets = {
@@ -34,7 +35,8 @@ export const assets = {
     why_choose,
     why_choose1,
     phone,
-    message
+    message,
+    down_arrow
 
 
 }
